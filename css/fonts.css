@@ -1,0 +1,11 @@
+/* Fugaz One Fonts */
+@font-face{
+    font-family: 'Fugaz One';
+    src:url(../fonts/Fugaz_One/FugazOne-Regular.ttf);
+}
+
+/* Cantarell Fonts */
+@font-face{
+    font-family: 'Cantarell Regular';
+    src: url(../fonts/Cantarell/Cantarell-Regular.ttf);
+}
