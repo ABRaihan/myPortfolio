@@ -4,13 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Header Section */
-#heading-content{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+/* Global Style */
+h3, p{
+    font-family: "Cantarell Regular";
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
     padding: 20px 0;
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Header Section */
+header{
     background: url(../images/top-banner.png) no-repeat;
 }
 .heading-intro{
@@ -20,10 +30,7 @@
     font-size: 50px;
     font-family: "Fugaz One";
 }
-.heading-intro h3, p{
-    font-family: "Cantarell Regular";
-}
-.heading-intro .hire-btn{
+.heading-intro .hire-btn, .btn{
     text-decoration: none;
     background-image: linear-gradient(90deg,#9370DB,#DDA0DD);
     padding: 10px 30px;
@@ -32,9 +39,48 @@
     color: white;
     font-weight: bold;
 }
-.heading-intro .name-highlight{
+.heading-intro .text-highlight, .text-highlight{
     color: orange;
 }
-.heading-pic img{
-    width: 100%;
+
+/* Dream Section */
+#dream-section{
+    background: url(../images/dream-bg.png) no-repeat right;
+}
+.dream-content{
+    width: 30%;
+}
+.dream-content h2{
+    font-size: 35px;
+    font-family: "Fugaz One";
+}
+
+/* Experiences Section */
+#experiences{
+    background: url(../images/exp-bg.png) no-repeat left;
+}
+#experiences h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: "Fugaz One";
+}
+#experiences .single-experience{
+    width: calc(50% - 25px);
+    box-shadow: 10px 10px 30px gray;
+    padding: 30px;
+    border-radius: 5px;
+    min-height: 400px;
+}
+#experiences .full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#7FFFD4,#00FFFF);
+    border-image-slice: 1;
+}
+#experiences .baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#00FFFF,#9400D3);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
