@@ -24,7 +24,7 @@ header{
     background: url(../images/top-banner.png) no-repeat;
 }
 .heading-intro{
-    width: 30%;
+    width: 40%;
 }
 .heading-intro h1{
     font-size: 50px;
@@ -48,7 +48,7 @@ header{
     background: url(../images/dream-bg.png) no-repeat right;
 }
 .dream-content{
-    width: 30%;
+    width: 40%;
 }
 .dream-content h2{
     font-size: 35px;
